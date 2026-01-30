@@ -29,7 +29,7 @@ class BankAccount {
             this.balance -= amt;
             console.log(`withdrawal of $${amt} successful. New balance: $${this.balance}`);
         } else {
-            console.log('insufficient funds or invalid amount');
+            console.log('insufficient funds');
         }
     }
 }
