@@ -47,9 +47,9 @@ let myTri2 = {
 
 //using constructor function
 class Triangle {
-if(!Number.isFinite(a) || a <=0)
-    throw new Error('Invalid side A: ${a}');
     constructor(sideA, sideB) {
+        if (!Number.isFinite(sideA) || sideA <= 0)
+            throw new Error(`Invalid side A: ${sideA}`);
         this.a = sideA;
         this.b = sideB;
     }
