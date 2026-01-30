@@ -23,4 +23,6 @@ class BankAccount {
             console.log('cant deposit non-positive amount');
         }
     }
+
+    withdraw(amt) {
 }
