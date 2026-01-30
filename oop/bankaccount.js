@@ -25,4 +25,11 @@ class BankAccount {
     }
 
     withdraw(amt) {
+        if (amt > 0 && amt <= this.balance) {
+            this.balance -= amt;
+            console.log(`withdrawal of $${amt} successful. New balance: $${this.balance}`);
+        } else {
+            console.log('insufficient funds or invalid amount');
+        }
+    }
 }
