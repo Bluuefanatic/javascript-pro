@@ -18,7 +18,7 @@ class BankAccount {
     deposit(amt) {
         if (amt > 0) {
             this.balance += amt;
-            console.log()
+            console.log('deposit of $${amt} successful. New balance: $${this.balance}');
         }
     }
 }
