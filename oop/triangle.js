@@ -50,7 +50,7 @@ class Triangle {
     constructor(sideA, sideB) {
         if (!Number.isFinite(sideA) || sideA <= 0)
             throw new Error(`Invalid side A: ${sideA}`);
-        
+
         if (!Number.isFinite(sideB) || sideB <= 0)
             throw new Error(`Invalid side B: ${sideB}`);
         this.a = sideA;
