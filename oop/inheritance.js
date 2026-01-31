@@ -39,8 +39,6 @@ class colorTriangle extends Triangle {
 
 
 
-
-
 /*
 class ShyTriangle extends Triangle {
     describe() {
