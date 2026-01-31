@@ -17,6 +17,31 @@ class Triangle {
 }
 
 
+class colorTriangle extends Triangle {
+    constructor(a, b, color) {
+        this.a = a;
+        this.b = b;
+        this.color = color;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 class ShyTriangle extends Triangle {
     describe() {
         return `runs and hides`;
@@ -26,3 +51,4 @@ class ShyTriangle extends Triangle {
         return `i am shy`;
     }
 }
+*/
