@@ -31,7 +31,7 @@ let myTri2 = {
 };
 
 // using class
-/*class Triangle {
+class Triangle {
     getArea() {
         return (this.a + this.b) / 2;
     }
@@ -43,10 +43,10 @@ let myTri2 = {
     sayHi() {
         return "Hi from a Triangle";
     }
-};*/
+};
 
 //using constructor function
-class Triangle {
+/*class Triangle {
     constructor(sideA, sideB) {
         if (!Number.isFinite(sideA) || sideA <= 0)
             throw new Error(`Invalid side A: ${sideA}`);
@@ -62,4 +62,4 @@ class Triangle {
     getHypotenuse() {
         return Math.sqrt(this.a ** 2 + this.b ** 2);
     }
-};
+};*/
