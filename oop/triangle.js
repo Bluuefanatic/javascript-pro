@@ -1,3 +1,4 @@
+/*
 //using functions
 function getTriangleArea(a, b) {
     return (a + b) / 2;
@@ -62,4 +63,5 @@ class Triangle {
     getHypotenuse() {
         return Math.sqrt(this.a ** 2 + this.b ** 2);
     }
-};*/
+};
+*/
