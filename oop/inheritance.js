@@ -21,4 +21,8 @@ class ShyTriangle extends Triangle {
     describe() {
         return `(runs and hides)`;
     }
+
+    beShy() {
+        return `i am shy`;
+    }
 }
