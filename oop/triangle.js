@@ -41,7 +41,7 @@ class Triangle {
     }
 
     sayHi() {
-        return "Hi from a Triangle";
+        return `the triangle with a side A of ${this.a} and side B of ${this.b} and with hypotenuse of ${this.getHypotenuse()} says hi!`;
     }
 };
 
