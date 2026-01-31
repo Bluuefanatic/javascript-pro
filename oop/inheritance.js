@@ -19,7 +19,7 @@ class Triangle {
 
 class ShyTriangle extends Triangle {
     describe() {
-        return `(runs and hides)`;
+        return `runs and hides`;
     }
 
     beShy() {
