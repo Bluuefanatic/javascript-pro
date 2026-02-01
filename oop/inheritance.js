@@ -19,8 +19,7 @@ class Triangle {
 
 class colorTriangle extends Triangle {
     constructor(a, b, color) {
-        this.a = a;
-        this.b = b;
+    super(a,b);
         this.color = color;
     }
 }
