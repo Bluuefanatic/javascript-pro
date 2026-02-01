@@ -24,6 +24,11 @@ class colorTriangle extends Triangle {
     }
 }
 
+class moodTriangle extends colorTriangle {
+    constructor(a,b,color,mood){
+        
+    }
+}
 
 
 
