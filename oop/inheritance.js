@@ -24,7 +24,7 @@ class colorTriangle extends Triangle {
     }
 }
 
-class moodTriangle extends colorTriangle {
+class colorMoodTriangle extends colorTriangle {
     constructor(a, b, color, mood) {
         super(a, b, color);
         this.mood = mood;
