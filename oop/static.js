@@ -1,8 +1,8 @@
 class cat {
-    constructor(name, breed){
+    constructor(name, breed) {
         this.name = name;
         this.breed = breed;
     }
 
-    static species = "felis catus";
+    static species = "felis catus"; // static property
 }
