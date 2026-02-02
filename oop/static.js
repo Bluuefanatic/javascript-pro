@@ -4,5 +4,5 @@ class cat {
         this.breed = breed;
     }
 
-    static genusSpecies
+    static species = "felis catus";
 }
