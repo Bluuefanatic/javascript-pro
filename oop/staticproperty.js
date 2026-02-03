@@ -1,5 +1,4 @@
-//
-class cat {
+/*class cat {
     constructor(name, breed) {
         this.name = name;
         this.breed = breed;
@@ -7,4 +6,3 @@ class cat {
 
     static species = "felis catus"; // static property
 }
-//
