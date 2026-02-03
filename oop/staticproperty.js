@@ -5,4 +5,4 @@
     }
 
     static species = "felis catus"; // static property
-}
+}*/
