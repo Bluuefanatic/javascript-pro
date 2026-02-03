@@ -1,3 +1,4 @@
+//
 class cat {
     constructor(name, breed) {
         this.name = name;
@@ -6,3 +7,4 @@ class cat {
 
     static species = "felis catus"; // static property
 }
+//
