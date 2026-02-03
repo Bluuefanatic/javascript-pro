@@ -4,7 +4,7 @@ class cat {
         this.breed = breed;
     }
     static meow() {
-        return "meow!";
+        return ` the ${this.breed} cat says meow!`;
     }
 
     static species = "felis catus"; // static property
