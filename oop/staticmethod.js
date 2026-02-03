@@ -4,7 +4,7 @@ class cat {
         this.breed = breed;
     }
     static meow() {
-        console.log("THIS IS; this");
+        console.log("THIS IS", this);
     }
     static species = "felis catus"; // static property
 }
