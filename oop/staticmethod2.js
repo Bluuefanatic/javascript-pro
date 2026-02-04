@@ -24,3 +24,7 @@ function choice(arr) {
     const randIdx = Math.floor(Math.random() * arr.length);
     return arr[randIdx];
 }
+
+function registerStray() {
+    const names = ['muffin', 'biscuit', 'sleepy', 'dodo', 'princess butterface'];
+}
