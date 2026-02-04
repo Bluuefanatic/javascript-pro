@@ -1,4 +1,4 @@
-class math {
+class myMath {
     static add(a, b) {
         return a + b;
     }
