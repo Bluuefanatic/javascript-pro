@@ -27,4 +27,6 @@ function choice(arr) {
 
 function registerStray() {
     const names = ['muffin', 'biscuit', 'sleepy', 'dodo', 'princess butterface'];
+    const name = choice(names);
+    return new cat(name, 'unknown');
 }
