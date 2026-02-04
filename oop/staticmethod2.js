@@ -15,6 +15,12 @@ class cat {
         this.name = name;
         this.breed = breed;
     }
+
+    static registerStray() {
+        const names = ['muffin', 'biscuit', 'sleepy', 'dodo', 'princess butterface'];
+        const name = choice(names);
+        return new cat(name, 'unknown');
+    }
     meow() {
         return `this ${this.name} says meow!`;
     }
@@ -23,10 +29,4 @@ class cat {
 function choice(arr) {
     const randIdx = Math.floor(Math.random() * arr.length);
     return arr[randIdx];
-}
-
-function registerStray() {
-    const names = ['muffin', 'biscuit', 'sleepy', 'dodo', 'princess butterface'];
-    const name = choice(names);
-    return new cat(name, 'unknown');
 }
