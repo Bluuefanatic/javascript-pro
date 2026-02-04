@@ -1,8 +1,22 @@
-/*class cat {
+//static property
+class cat {
     constructor(name, breed) {
         this.name = name;
         this.breed = breed;
     }
 
     static species = "felis catus"; // static property
-}*/
+}
+
+
+//static method
+class cat {
+    constructor(name, breed) {
+        this.name = name;
+        this.breed = breed;
+    }
+    static meow() {
+        console.log("THIS IS: ", this);
+    }
+    static species = "felis catus"; // static property
+}
