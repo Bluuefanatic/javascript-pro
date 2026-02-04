@@ -19,9 +19,8 @@ class cat {
         return `this ${this.name} says meow!`;
     }
 
-    function choice(arr){
+    choice(arr) {
         const randIdx = Math.floor(Math.random() * arr.length);
         return arr[randIdx];
-    }
     }
 }
