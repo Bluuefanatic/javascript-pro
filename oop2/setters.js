@@ -1,4 +1,4 @@
-class triangle {
+class circle {
     constructor(radius) {
         this._radius = radius;
     }
