@@ -24,7 +24,7 @@ class circle {
     //setter for color
     set color(newColor) {
         const validColors = new Set(["red", "green", "blue"])
-        if (validColors.has((newColor)) {
+        if (validColors.has(newColor)) {
             this._color = newColor;
         } else {
             throw new Error("this color is not allowed");
