@@ -23,7 +23,7 @@ class circle {
 
     //setter for color
     set color(newColor) {
-        const validColors = ["red", "green", "blue"]
+        const validColors = new Set(["red", "green", "blue"])
         if (validColors.has((newColor)) {
             this._color = newColor;
         } else {
