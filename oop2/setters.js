@@ -1,6 +1,11 @@
 class circle {
-    constructor(radius) {
+    constructor(radius, color) {
         this._radius = radius;
+        this._color = color;
+    }
+
+    get radius() {
+        return this._radius;
     }
     //setter for the radius
     set radius(value) {
