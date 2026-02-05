@@ -2,7 +2,7 @@ class circle {
     static validColors = new Set(["red", "green", "blue"])
     constructor(radius, color) {
         this._radius = radius;
-        if (validColors.has(color)) {
+        if (circle.validColors.has(color)) {
             this._color = color;
         } else {
             throw new Error("this color is not allowed");
