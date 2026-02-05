@@ -20,4 +20,9 @@ class circle {
     get color() {
         return this._color;
     }
+
+    //setter for color
+    set color(newColor) {
+        const allowedColors = ["red", "green", "blue"]
+    }
 }
