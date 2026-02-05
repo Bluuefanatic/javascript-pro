@@ -1,3 +1,4 @@
+/*
 class circle {
     constructor(radius) {
         this.radius = radius;
@@ -7,3 +8,4 @@ class circle {
         return this.radius * 2;
     }
 }
+*/
