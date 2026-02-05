@@ -3,7 +3,7 @@ class circle {
         this.radius = radius;
     }
 
-    getDiameter() {
+    get diameter() {
         return this.radius * 2;
     }
 }
