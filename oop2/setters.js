@@ -24,5 +24,10 @@ class circle {
     //setter for color
     set color(newColor) {
         const validColors = ["red", "green", "blue"]
+        if (validColors.has((newColor)) {
+            this._color = newColor;
+        } else {
+            throw new Error("this color is not allowed");
+        }
     }
 }
