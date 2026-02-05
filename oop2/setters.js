@@ -23,6 +23,6 @@ class circle {
 
     //setter for color
     set color(newColor) {
-        const allowedColors = ["red", "green", "blue"]
+        const validColors = ["red", "green", "blue"]
     }
 }
