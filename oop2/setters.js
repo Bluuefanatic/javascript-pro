@@ -3,6 +3,7 @@ class circle {
 
     constructor(radius, color) {
         this._radius = radius;
+        this.setcolor(color);
     }
 
 
