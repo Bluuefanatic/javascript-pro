@@ -7,4 +7,10 @@ class User {
     get fullName() {
         return `${this.firstName} ${this.lastName}`;
     }
+
+    set fullName(newName) {
+        const [firstName, lastName] = newName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 }
