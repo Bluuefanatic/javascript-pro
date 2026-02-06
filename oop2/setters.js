@@ -5,10 +5,7 @@ class circle {
         this._radius = radius;
         this.setColor(color);
     }
-
-
-
-
+    
     setColor(newColor) {
         if (circle.validColors.has(newColor)) {
             this._color = newColor;
