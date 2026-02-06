@@ -30,6 +30,8 @@ class circle {
 
     //setter for color
     set color(newColor) {
-
+        if (circle.validColors.has(newColor)) {
+            this._color = newColor;
+        }
     }
 }
