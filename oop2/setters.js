@@ -10,8 +10,8 @@ class circle {
 
 
     setColor(newColor) {
-        if (circle.validColors.has(newcolor)) {
-            this._color = color;
+        if (circle.validColors.has(newColor)) {
+            this._color = newColor;
         } else {
             throw new Error("this color is not allowed");
         }
