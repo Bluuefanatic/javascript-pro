@@ -3,6 +3,12 @@ class circle {
 
     constructor(radius, color) {
         this._radius = radius;
+    }
+
+
+
+
+    setcolor(newColor) {
         if (circle.validColors.has(color)) {
             this._color = color;
         } else {
