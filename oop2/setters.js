@@ -1,5 +1,6 @@
 class circle {
     static validColors = new Set(["red", "green", "blue"])
+
     constructor(radius, color) {
         this._radius = radius;
         if (circle.validColors.has(color)) {
