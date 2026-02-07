@@ -1,9 +1,7 @@
-class myClass {
-    publicField = "public field";
-
-    #privateField = "private field";
-
-    getPrivateField() {
-        return this.#privateField;
+class cat {
+    static numOfCats = 0;
+    constructor(name) {
+        this.name = name;
+        cat.numOfCats += 1;
     }
 }
