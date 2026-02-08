@@ -5,4 +5,8 @@ class cat {
         this.name = name;
         cat.numOfCats += 1;
     }
+
+    amputate() {
+        this.numLegs -= 1;
+    }
 }
