@@ -1,10 +1,13 @@
 class cat {
     static numOfCats = 0;
+    name;
+    breed;
     numLegs = 4;
     hasTail = true;
 
-    constructor(name) {
+    constructor(name, breed) {
         this.name = name;
+        this.breed = breed;
         cat.numOfCats += 1;
     }
     amputate() {
