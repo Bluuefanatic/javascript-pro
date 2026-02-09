@@ -1,6 +1,4 @@
 class MyClass {
-    #privateMethod;
-
     #privateMethod() {
         console.log("PRIVATE METHOD CALLED");
     }
