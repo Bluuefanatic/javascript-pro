@@ -3,7 +3,11 @@ class circle {
     constructor(radius) {
         this.#radius = radius;
     }
+
+    getRadius() {
+        return this.#radius
+    }
 }
 
-const myCircle = new circle(5);
-console.log(myCircle.#radius);
+const myCircle = new circle(7);
+console.log(myCircle.getRadius());
