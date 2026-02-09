@@ -1,10 +1,12 @@
 class MyClass {
+    #privateMethod;
+
     #privateMethod() {
         console.log("PRIVATE METHOD CALLED");
     }
 
     publicMethod() {
-        return this.#privateMethod();
+        this.#privateMethod();
     }
 }
 
