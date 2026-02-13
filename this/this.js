@@ -5,3 +5,13 @@ const person = {
         return `${this.name} in ${this.city} sings la la la`;
     }
 }
+
+class Person {
+    constructor(firstName) {
+        this.firstName = firstName;
+    }
+
+    dance(style = 'salsa') {
+
+    }
+}
