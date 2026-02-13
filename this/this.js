@@ -23,3 +23,9 @@ function greet() {
 function whatIsThis() {
     console.log("the value of this is:", this);
 }
+
+const obj = {
+    color: "purple",
+    age: 2,
+    whatIsThis: whatIsThis,
+}
