@@ -15,3 +15,7 @@ class Person {
         return `meow, i am ${this.firstName} and i like to ${style}`;
     }
 }
+
+function greet() {
+    return `hi there`;
+}
