@@ -1,29 +1,18 @@
-const person = {
+/*const person = {
     name: 'Alice',
     city: 'los angeles',
     sing: function () {
         console.log("this is: ", this);
         return `${this.name} in ${this.city} sings la la la`;
     }
-}
+}*/
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*class Person {
+class Person {
     constructor(firstName) {
         this.firstName = firstName;
     }
@@ -33,7 +22,13 @@ const person = {
     }
 }
 
-function greet() {
+
+
+
+
+
+
+/*function greet() {
     return `hi there`;
 }
 
