@@ -12,6 +12,6 @@ class Person {
     }
 
     dance(style = 'salsa') {
-
+        return `meow, i am ${this.firstName} and i like to dance ${style}`;
     }
 }
