@@ -1,12 +1,28 @@
-/*const person = {
+const person = {
     name: 'Alice',
     city: 'los angeles',
     sing: function () {
         return `${this.name} in ${this.city} sings la la la`;
     }
-}*/
+}
 
-class Person {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*class Person {
     constructor(firstName) {
         this.firstName = firstName;
     }
@@ -28,4 +44,4 @@ const obj = {
     color: "purple",
     age: 2,
     whatIsThis: whatIsThis,
-}
+}*/
