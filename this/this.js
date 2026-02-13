@@ -19,3 +19,7 @@ class Person {
 function greet() {
     return `hi there`;
 }
+
+function whatIsThis() {
+    console.log("the value of this is:", this);
+}
