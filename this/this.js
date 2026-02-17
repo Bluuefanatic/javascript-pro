@@ -8,7 +8,8 @@ const conan = {
 }
 
 const lisa = {
-    name: 
+    name: 'lisa',
+    city: 'new york',
 }
 
 
