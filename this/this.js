@@ -22,6 +22,7 @@ class cat {
     }
 
     dance(style = 'salsa') {
+        console.log("THIS IS:", this);
         return `meow, i am ${this.firstName} and i like to ${style}`;
     }
 }
