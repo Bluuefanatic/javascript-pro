@@ -17,6 +17,10 @@ class cat {
         this.firstName = firstName;
     }
 
+    static getRandomCat() {
+        console.log("THIS IS:", this);
+    }
+
     dance(style = 'salsa') {
         return `meow, i am ${this.firstName} and i like to ${style}`;
     }
