@@ -12,7 +12,7 @@
 
 
 
-class Person {
+class cat {
     constructor(firstName) {
         this.firstName = firstName;
     }
