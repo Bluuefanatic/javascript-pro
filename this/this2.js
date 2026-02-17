@@ -4,3 +4,8 @@ const joe = {
         console.log(`${this.firstName} says ${greeting}!`);
     }
 }
+
+const george = {
+    firstName: 'george',
+    lastName: 'harrison',
+}
