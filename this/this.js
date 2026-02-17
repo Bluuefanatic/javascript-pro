@@ -1,11 +1,15 @@
-/*const person = {
-    name: 'Alice',
+const conan = {
+    name: 'conan',
     city: 'los angeles',
     sing: function () {
         console.log("this is: ", this);
         return `${this.name} in ${this.city} sings la la la`;
     }
-}*/
+}
+
+const lisa = {
+    name: 
+}
 
 
 
