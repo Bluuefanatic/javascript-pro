@@ -12,7 +12,7 @@
 
 
 
-class cat {
+/* class cat {
     constructor(firstName) {
         this.firstName = firstName;
     }
@@ -25,7 +25,7 @@ class cat {
         console.log("THIS IS:", this);
         return `meow, i am ${this.firstName} and i like to ${style}`;
     }
-}
+} */
 
 
 
