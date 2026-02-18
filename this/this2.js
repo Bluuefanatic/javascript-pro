@@ -9,3 +9,5 @@ const george = {
     firstName: 'george',
     lastName: 'harrison',
 }
+
+const nums = [2, 3, 4, 99, 5]
