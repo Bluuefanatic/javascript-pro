@@ -11,3 +11,8 @@ const george = {
 }
 
 const nums = [2, 3, 4, 99, 5]
+
+function() {
+    console.log(arguments);
+    return Math.max(null, arguments);
+}
