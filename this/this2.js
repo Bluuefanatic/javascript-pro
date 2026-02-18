@@ -1,7 +1,7 @@
 const joe = {
     firstName: 'joe',
-    greet: function (greeting) {
-        console.log(`${this.firstName} says ${greeting}!`);
+    greet: function (greeting, punctuation) {
+        console.log(`${this.firstName} says ${greeting} ${punctuation}`);
     }
 }
 
