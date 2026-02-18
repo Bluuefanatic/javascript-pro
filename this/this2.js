@@ -14,5 +14,5 @@ const nums = [2, 3, 4, 99, 5]
 
 function maximum() {
     console.log(arguments);
-    return Math.max(null, arguments);
+    return Math.max.apply(null, arguments);
 }
