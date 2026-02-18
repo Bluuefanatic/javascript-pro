@@ -12,6 +12,8 @@ const lisa = {
     city: 'new york',
 }
 
+const lisaSing = conan.sing.bind(lisa);
+
 
 
 
