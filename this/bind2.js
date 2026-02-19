@@ -1,1 +1,1 @@
-document.querySelector("button")
+document.querySelector("#click me")
