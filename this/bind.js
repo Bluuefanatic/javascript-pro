@@ -10,3 +10,8 @@ const applyMTSalesTax = applyCASalesTax.bind(null, 0);
 function multiply(a, b) {
     return a * b;
 }
+
+const double = multiply.bind(null, 2);
+const triple = multiply.bind(null, 3);
+
+const alwaysNine = multiply.bind(null, 3, 3);
