@@ -3,3 +3,4 @@ class counter {
         this.startingNum = startingNum;
         this.incrementAmt = incrementAmt;
     }
+}
