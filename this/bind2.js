@@ -1,1 +1,1 @@
-document.querySelector("#click me")
+document.querySelector("#click me");
