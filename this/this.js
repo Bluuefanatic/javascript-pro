@@ -1,3 +1,4 @@
+/*
 const conan = {
     name: 'conan',
     city: 'los angeles',
@@ -6,6 +7,7 @@ const conan = {
         return `${this.name} in ${this.city} sings la la la`;
     }
 }
+*/
 
 const lisa = {
     name: 'lisa',
