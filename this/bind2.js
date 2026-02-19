@@ -1,4 +1,4 @@
 document.querySelector("#clickMe");
-btn.addEventListener("click", function () {
+button.addEventListener("click", function () {
     console.log("Button clicked");
 })
