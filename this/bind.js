@@ -6,3 +6,7 @@ function applySalesTax(taxRate, price) {
 const applyCASalesTax = applySalesTax.bind(null, 0.075);
 const applyMTSalesTax = applyCASalesTax.bind(null, 0);
 */
+
+function multiply(a, b) {
+    return a * b;
+}
