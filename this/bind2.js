@@ -1,4 +1,4 @@
-document.querySelector("#click me");
-btn.addEventListener("click", function(){
+document.querySelector("#clickMe");
+btn.addEventListener("click", function () {
 
 }
