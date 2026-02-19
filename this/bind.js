@@ -12,3 +12,4 @@ function multiply(a, b) {
 }
 
 const double = multiply.bind(null, 2);
+const triple = multiply.bind(null, 3);
