@@ -1,5 +1,5 @@
 class counter {
-    constructor(startingNum, incrementAmt) {
+    constructor(startingNum = 0, incrementAmt = 1) {
         this.count = startingNum;
         this.incrementAmt = incrementAmt;
     }
