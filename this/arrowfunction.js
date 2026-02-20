@@ -17,5 +17,5 @@ class Cat {
 
     setTimeout(() => {
         console.log(`#3: i am ${this.firstName} `);
-    }, 3000);
+    }, 1000);
 }
