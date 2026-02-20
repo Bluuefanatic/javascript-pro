@@ -8,6 +8,6 @@ class counter {
         setInterval(function () {
             console.log(this.count);
             this.count += this.incrementAmt;
-        },1000);
+        }, 1000);
     }
 }
