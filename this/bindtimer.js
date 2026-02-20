@@ -6,6 +6,7 @@ class counter {
 
     start() {
         setInterval(function () {
+            console.log(this);
             console.log(this.count);
             this.count += this.incrementAmt;
         }, 1000);
