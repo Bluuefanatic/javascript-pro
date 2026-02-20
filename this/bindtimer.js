@@ -5,10 +5,10 @@ class counter {
     }
 
     start() {
-        setInterval(function () {
+        setInterval((function () {
             console.log(this);
             console.log(this.count);
             this.count += this.incrementAmt;
-        }.bind(this), 1000);
+        }).bind(this), 1000);
     }
 }
