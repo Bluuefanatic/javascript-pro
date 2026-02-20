@@ -9,10 +9,12 @@ class Cat {
         console.log(`#1: i am ${this.firstName}`)
 
         setTimeout(function () {
+            console.log("THIS IS: ", this);
             console.log(`#2: i am ${this.firstName} `);
         }, 500);
 
         setTimeout(() => {
+            console.log("THIS IS: ", this);
             console.log(`#3: i am ${this.firstName} `);
         }, 1000);
     }
