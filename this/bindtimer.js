@@ -1,6 +1,13 @@
 class counter {
     constructor(startingNum, incrementAmt) {
-        this.startingNum = startingNum;
+        this.count = startingNum;
         this.incrementAmt = incrementAmt;
+    }
+
+    start() {
+        setInterval(function () {
+            console.log(this.count);
+            this.count += this.incrementAmt;
+        })
     }
 }
