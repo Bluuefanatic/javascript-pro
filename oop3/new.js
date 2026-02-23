@@ -3,11 +3,9 @@ class dog {
         this.name = name;
         this.breed = breed;
     }
-
     bark() {
         return `${this.name} says woof!`;
     }
-
     sleep() {
         return `${this.name} is sleeping!`;
     }
