@@ -18,6 +18,9 @@ function Dog(name, breed) {
     this.bark = function () {
         return `${this.name} says woof!`;
     }
+    this.sleep = function () {
+        return `${this.name} is sleeping!`;
+    }
 }
 
 /*
