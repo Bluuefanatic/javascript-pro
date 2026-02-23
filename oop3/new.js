@@ -15,6 +15,9 @@ class dog {
 function Dog(name, breed) {
     this.name = name;
     this.breed = breed;
+    this.bark = function () {
+        return `${this.name} says woof!`;
+    }
 }
 
 /*
