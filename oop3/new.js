@@ -7,6 +7,10 @@ class dog {
     bark() {
         return `${this.name} says woof!`;
     }
+
+    sleep() {
+        return `${this.name} is sleeping!`;
+    }
 }
 
 
