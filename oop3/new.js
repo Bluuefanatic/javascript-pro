@@ -1,4 +1,13 @@
+class dog {
+    constructor(name, breed) {
+        this.name = name;
+        this.breed = breed;
+    }
 
+    bark() {
+        return '${this.name} says woof!';
+    }
+}
 
 
 
