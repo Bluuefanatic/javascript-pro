@@ -1,3 +1,4 @@
+/*
 class dog {
     constructor(name, breed) {
         this.name = name;
@@ -10,7 +11,7 @@ class dog {
         return `${this.name} is sleeping!`;
     }
 }
-
+*/
 
 function Dog(name, breed) {
     this.name = name;
