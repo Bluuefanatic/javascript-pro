@@ -5,7 +5,7 @@ function Dog(name, breed) {
 }
 
 function user(username, email) {
-    this.username - username;
+    this.username = username;
     this.email = email;
     this.isAdmin = false;
 }
