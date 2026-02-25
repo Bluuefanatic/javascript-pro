@@ -53,3 +53,8 @@ const parent = {
         console.log("la la la");
     }
 }
+
+const child = {
+    num: 3,
+
+}
