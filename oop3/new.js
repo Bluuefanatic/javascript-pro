@@ -56,5 +56,5 @@ const parent = {
 
 const child = {
     num: 3,
-
+    __proto__: parent
 }
