@@ -13,6 +13,7 @@ class dog {
 }
 */
 
+/*
 function Dog(name, breed) {
     this.name = name;
     this.breed = breed;
@@ -23,6 +24,7 @@ function Dog(name, breed) {
         return `${this.name} is sleeping!`;
     }
 }
+*/
 
 /*
 function user(username, email) {
