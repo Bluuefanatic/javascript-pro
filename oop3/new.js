@@ -45,3 +45,11 @@ Dog.prototype.bark = function () {
 Dog.prototype.sleep = function () {
     return `${this.name} is sleeping!`;
 }
+
+
+const parent = {
+    color: "purple",
+    sing() {
+        console.log("la la la");
+    }
+}
