@@ -47,6 +47,12 @@ Dog.prototype.sleep = function () {
 }
 
 
+const grandparent = {
+    greet() {
+        console.log("hi there")
+    }
+}
+
 const parent = {
     color: "purple",
     sing() {
