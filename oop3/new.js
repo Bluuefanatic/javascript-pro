@@ -57,7 +57,8 @@ const parent = {
     color: "purple",
     sing() {
         console.log("la la la");
-    }
+    },
+    __proto__: grandparent
 }
 
 const child = {
