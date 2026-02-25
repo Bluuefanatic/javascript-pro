@@ -1,3 +1,11 @@
+const myObj = {
+    color: "purple",
+    score: 99,
+    greet() {
+        console.log("HI!!!")
+    }
+}
+
 /*
 class dog {
     constructor(name, breed) {
