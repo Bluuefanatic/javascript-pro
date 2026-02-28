@@ -31,11 +31,23 @@ class dog {
 }
 */
 
+/*
+function Dog(name, breed) {
+    this.name = name;
+    this.breed = breed;
+    this.bark = function () {
+        return `${this.name} says woof!`;
+    }
+
+    this.sleep = function () {
+        return `${this.name} is sleeping!`;
+    }
+}
+*/
 
 function Dog(name, breed) {
     this.name = name;
     this.breed = breed;
-
 }
 
 Dog.prototype.bark = function () {
