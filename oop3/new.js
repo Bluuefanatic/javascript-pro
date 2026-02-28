@@ -16,7 +16,7 @@ function user(username, email) {
 }
 */
 
-/*
+
 class dog {
     constructor(name, breed) {
         this.name = name;
@@ -29,8 +29,13 @@ class dog {
         return `${this.name} is sleeping!`;
     }
 }
-*/
 
+class GuardDog extends dog {
+    constructor(name, breed, owner) {
+        super(name, breed);
+        this.owner = owner;
+    }
+}
 /*
 function Dog(name, breed) {
     this.name = name;
