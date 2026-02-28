@@ -35,6 +35,9 @@ class GuardDog extends dog {
         super(name, breed);
         this.owner = owner;
     }
+    alert() {
+        return `${this.name} is alerting you to danger. good dog!`;
+    }
 }
 /*
 function Dog(name, breed) {
