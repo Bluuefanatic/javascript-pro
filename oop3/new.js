@@ -46,7 +46,7 @@ Dog.prototype.sleep = function () {
     return `${this.name} is sleeping!`;
 }
 
-
+/*
 const grandparent = {
     greet() {
         console.log("hi there")
@@ -65,3 +65,4 @@ const child = {
     num: 3,
     __proto__: parent
 }
+*/
