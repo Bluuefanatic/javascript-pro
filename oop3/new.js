@@ -86,3 +86,12 @@ const child = {
     __proto__: parent
 }
 */
+
+//useful prototype methods
+
+const person = {
+    sing() {
+        return "LALALA";
+    },
+    isHuman: true,
+}
