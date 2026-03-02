@@ -4,5 +4,5 @@ const url = `${BASE_URL}/1`;
 fetch(url).then(function (data) {
     console.log(data);
 }).catch(function (err) {
-    console.log("ERROR!!", err);
+    console.log("ERR!!", err);
 })
