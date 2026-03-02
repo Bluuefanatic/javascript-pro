@@ -17,3 +17,7 @@ fetch(url)
 
 
 fetch(`${BASE_URL}/1`)
+    .then((res1) => console.log("RESPONSE 1", res1))
+    .then((res2) => console.log("RESPONSE 2", res2))
+    .then((res3) => console.log("RESPONSE 3", res3))
+    .then((res4) => console.log("RESPONSE 4", res4))
