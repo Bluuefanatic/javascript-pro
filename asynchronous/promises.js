@@ -8,3 +8,7 @@ fetch(url)
     .catch(function (err) {
         console.log("ERR!!", err);
     })
+
+fetch(url)
+    .then((res) => console.log(res))
+    .catch((err) => console.log("ERR!!", err));
