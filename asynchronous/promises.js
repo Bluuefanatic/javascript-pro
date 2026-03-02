@@ -14,3 +14,6 @@ const url = `${BASE_URL}/1`;
 fetch(url)
     .then((res) => console.log(res))
     .catch((err) => console.log("ERR!!", err));
+
+
+fetch(`${BASE_URL}/1`)
