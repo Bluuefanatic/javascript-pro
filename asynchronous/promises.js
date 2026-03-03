@@ -28,15 +28,11 @@ fetch(`${BASE_URL}/1`)
                         fetch(`${BASE_URL}/4`)
                             .then((res4) => {
                                 console.log("RESPONSE 4", res4)
-                                    .catch((err) => {
-                                        console.log("ERR!!", err)
-                                    })
-                                    .catch((err) => {
-                                        console.log("ERR!!", err)
-                                    })
-                                    .catch((err) => {
-                                        console.log("ERR!!", err)
-                                    })
-                                    .catch((err) => {
-                                        console.log("ERR!!", err)
-                                    })
+                            })
+                            .catch((err) => console.log("ERR!!", err))
+                    })
+                    .catch((err) => console.log("ERR!!", err))
+            })
+            .catch((err) => console.log("ERR!!", err))
+    })
+    .catch((err) => console.log("ERR!!", err))
