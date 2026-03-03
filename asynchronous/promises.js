@@ -17,7 +17,26 @@ const url = `${BASE_URL}/1`;
 
 
 fetch(`${BASE_URL}/1`)
-    .then((res1) => console.log("RESPONSE 1", res1))
-    .then((res2) => console.log("RESPONSE 2", res2))
-    .then((res3) => console.log("RESPONSE 3", res3))
-    .then((res4) => console.log("RESPONSE 4", res4))
+    .then((res1) => {
+        console.log("RESPONSE 1", res1)
+        fetch(`${BASE_URL}/2`)
+            .then((res2) => {
+                console.log("RESPONSE 2", res2)
+                fetch(`${BASE_URL}/3`)
+                    .then((res3) => {
+                        console.log("RESPONSE 3", res3)
+                        fetch(`${BASE_URL}/4`)
+                            .then((res4) => {
+                                console.log("RESPONSE 4", res4)
+                                    .catch((err) => {
+                                        console.log("ERR!!", err)
+                                    })
+                                    .catch((err) => {
+                                        console.log("ERR!!", err)
+                                    })
+                                    .catch((err) => {
+                                        console.log("ERR!!", err)
+                                    })
+                                    .catch((err) => {
+                                        console.log("ERR!!", err)
+                                    })
