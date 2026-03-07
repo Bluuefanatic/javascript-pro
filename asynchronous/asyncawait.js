@@ -3,11 +3,14 @@ async function hello() {
     console.log(result)
 }
 
+
+//ERROR handling with async/await
 async function getFakeWeb() {
     try {
-        const res = await fetch('https://fakeweb.com')
+        const res = await fetch(`https://fakeweb.com`)
         console.log(res)
     } catch (e) {
         console.log('SOMETHING WENT WRONG!!')
+        console.log(e)
     }
 }
