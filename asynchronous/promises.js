@@ -59,3 +59,19 @@ fetch(`${BASE_URL}/1`)
     .catch((err) => {
         console.log("ERR!!", err)
     })
+
+//****using async/await*****/
+async function getFourPokemon() {
+    const res1 = await fetch(`${BASE_URL}/1`)
+    console.log(res1)
+
+    const res2 = await fetch(`${BASE_URL}/2`)
+    console.log(res2)
+
+    const res3 = await fetch(`${BASE_URL}/3`)
+    console.log(res3)
+
+    const res4 = await fetch(`${BASE_URL}/4`)
+    console.log(res4)
+
+}
